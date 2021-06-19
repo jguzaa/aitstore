@@ -1,0 +1,55 @@
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #111;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+
+.btnDiv{
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 10px;
+    transition: .2s;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+.form-control {
+    border-radius: 0;
+}
+
+#result {
+    text-align:center; 
+    margin: 10px auto; 
+    width: 300px;
+}

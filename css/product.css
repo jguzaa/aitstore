@@ -1,0 +1,143 @@
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+.list-group{
+    margin: 10px auto;
+
+}
+
+
+
+#content {
+    padding: 10px 20px;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+.mainContent {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.panel-heading {
+    height: 90px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 767px){
+    .mainContent {
+        width: auto;
+        margin: auto;
+    }
+    .panel-heading {
+        height: auto;
+        text-align: center;
+    }
+}
+
+
+
+.carouselContainer
+{
+
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.highlightsContainer
+{
+    margin-top: 50px; 
+
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: auto;
+}
+
+.carousel-inner .ImageContainer {
+    margin: auto;
+}
+
+.quantity
+{
+    display: inline;
+}
+.descriptionBox
+{
+    height: auto;
+    border: solid black 1px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.descriptionButton
+{
+    border-radius: 10px 10px 0 0;
+    background-color: gray; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.detailsButton
+{
+    border-radius: 10px 10px 0 0;
+    background-color: gray; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.ImageContainer{
+    height: 300px;
+    width: 300px;
+}
+#zoomImage
+{
+    height: 300px;
+    width: 300px;
+}
+   #zoomImage:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+        transition: 0.6s ease;
+}
+
+@media screen and (max-width: 768px){
+    
+    #sideList {
+    padding: 20px;
+}
+}
